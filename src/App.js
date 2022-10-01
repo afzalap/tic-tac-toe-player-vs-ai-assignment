@@ -180,10 +180,16 @@ const App = () => {
               </Button>
             </div>
           ) : (
-            <h1 className='text-center text-warning '>
+              <>
+                <h1 className='text-center text-warning '>
                 {/* {isCross ? "Cross": "Circle"} turn */}
-                O : Player......X : Computer
-            </h1>
+                O : Player
+                </h1>
+                <h1 className='text-center text-warning '>
+                {/* {isCross ? "Cross": "Circle"} turn */}
+                X : Computer
+                </h1>
+              </>
           )}
           <div className="grid">
             {itemArray.map((item, index) => (
