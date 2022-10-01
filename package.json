@@ -1,6 +1,6 @@
 {
   "name": "tic-tac-toe",
-  "homepage": "https://afzalap.github.io/tic-tac-toe-ai",
+  "homepage": "https://afzalap.github.io/tic-tac-toe-player-vs-ai-assignment/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
